@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Dtp from './DTPlus/Home';
 import * as serviceWorker from './serviceWorker';
+import Test from './Practice/Testbind';
 
-ReactDOM.render(<Dtp />, document.getElementById('root'));
+ReactDOM.render(<Test />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
